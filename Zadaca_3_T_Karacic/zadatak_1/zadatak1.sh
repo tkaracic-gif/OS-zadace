@@ -10,7 +10,7 @@ NASAO_BILO_STA=false
 
 
 for f in "$PUTANJA"/*"$EXT"; do
-    # Provjeri je li to stvarno datoteka (da nije prazan string ako nema ničeg)
+
     if [ -f "$f" ]; then
         basename "$f"
         NASAO_BILO_STA=true
