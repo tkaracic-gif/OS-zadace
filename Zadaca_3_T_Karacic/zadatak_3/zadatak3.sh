@@ -1,9 +1,9 @@
-#!/bin/bash
+
 
 DIR="screenshots"
 i=1
 
-# Prvo napravimo te datoteke ako ih nemaš (za test)
+
 mkdir -p $DIR
 touch $DIR/bash.png $DIR/nano.png $DIR/vim.png
 
